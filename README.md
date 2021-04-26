@@ -1,5 +1,7 @@
 # Job_board
 
+Link of the project [Job_board](https://jobboard-project.netlify.app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
