@@ -1,20 +1,12 @@
-import getRandomInt from "../utils/getRandomInt";
+import getRandomTab from "../utils/getRandomTab";
 
 const Job = ({ title, contractType, country, city }) => {
-  const randomColors = {
-    red: "ef476f",
-    yellow: "ffd166",
-    green: "06d6a0",
-    blueSky: "118ab2",
-    blue: "073b4c",
-  };
+  const randomColors = ["ef476f", "ffd166", "06d6a0", "118ab2", "073b4c"];
   return (
     <div
       className="cadre"
       style={{
-        borderColor: `#${
-          Object.values(randomColors)[getRandomInt(randomColors)]
-        }`,
+        borderColor: `#${getRandomTab(randomColors)}`,
       }}
     >
       <h3>{title}</h3>
